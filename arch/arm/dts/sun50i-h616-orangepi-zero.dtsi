@@ -30,14 +30,14 @@
 		led-0 {
 			function = LED_FUNCTION_POWER;
 			color = <LED_COLOR_ID_RED>;
-			gpios = <&pio 2 12 GPIO_ACTIVE_HIGH>; /* PC12 */
+			gpios = <&pio 2 12 GPIO_ACTIVE_HIGH>; // PC12
 			default-state = "on";
 		};
 
 		led-1 {
 			function = LED_FUNCTION_STATUS;
 			color = <LED_COLOR_ID_GREEN>;
-			gpios = <&pio 2 13 GPIO_ACTIVE_HIGH>; /* PC13 */
+			gpios = <&pio 2 13 GPIO_ACTIVE_HIGH>; // PC13
 		};
 	};
 	*/
