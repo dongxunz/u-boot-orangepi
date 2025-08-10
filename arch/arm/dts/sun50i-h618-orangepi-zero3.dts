@@ -24,6 +24,7 @@
 };
 */
 
+/*
 &emac1 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&rmii_pins>;
@@ -41,6 +42,7 @@
 		reg = <1>;
 	};
 };
+*/
 
 &mmc0 {
 	/*
